@@ -229,6 +229,9 @@
             opacity: 1.0;
             transition: 60ms opacity ease-in, width ease-in-out var(--theme-sidebar_expand_on_hover-transition_speed);
         }
+        html {
+	--lwt-accent-color: var(--zen-main-browser-background-toolbar)
+}
     }
 
     /* Collapsed bar */
